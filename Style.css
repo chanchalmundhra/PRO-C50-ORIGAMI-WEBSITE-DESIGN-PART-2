@@ -1,0 +1,28 @@
+.header{
+    color:lightcyan;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    position:relative;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    width:310px;
+}
+
+.head{
+    text-align: center;
+}
+
+.head{
+    position:absolute;
+    top:5%;
+    left:50%;
+}
